@@ -1,10 +1,3 @@
-"""
-modul_evaluasi.py
-Pustaka logika untuk Sistem Evaluasi Kelayakan Asisten Laboratorium AI.
-Catatan: file ini TIDAK berisi input() maupun print().
-"""
-
-
 def hitung_persentase_presensi(hadir, total_pertemuan=14):
     """Menghitung persentase kehadiran (0-100)."""
     return (hadir / total_pertemuan) * 100
